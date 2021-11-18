@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+}
+.space{
+    height: 80vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+body > div > div{
+    height: 100vh;
+    width: 50vw;
+    background-color: yellow;
+} 
+.top{
+    display: flex;
+}
+.bottom{
+    display: flex;
+}
+.tr{
+    background-color: red;
+}
+.tl{
+    background-color: blue;
+}
+.br{
+    background-color: chartreuse;
+}
+.bl{
+    background-color: darkmagenta;
+    visibility: hidden;
+}
