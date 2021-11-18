@@ -1,8 +1,10 @@
 body{
     background-color: beige;
+    padding: 0;
+    margin: 0;
 }
 .space{
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     background-color: gray;
 }
@@ -23,6 +25,8 @@ body > div > div{
 }
 .tl{
     background-color: blue;
+    margin: 0;
+    padding: 0;
 }
 .br{
     background-color: chartreuse;
@@ -30,4 +34,10 @@ body > div > div{
 .bl{
     background-color: darkmagenta;
     visibility: hidden;
+}
+#bfooter{
+    margin-top: -50vh;
+}
+#cfooter{
+    background-color: pink;
 }

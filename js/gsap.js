@@ -5,4 +5,4 @@ gsap.timeline({scrollTrigger:{
 	markers:true,
 	scrub:1,
     pin:true
-}}).to(".br", {y:-400, duration:5});
+}}).to(".br", {y:-375, duration:5});
